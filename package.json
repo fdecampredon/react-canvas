@@ -43,6 +43,7 @@
   "dependencies": {
     "fbjs": "^0.2.1",
     "linebreak": "^0.3.0",
+    "react-dom": "^0.14.0-rc1",
     "scroller": "git://github.com/mjohnston/scroller"
   }
 }
