@@ -3,6 +3,7 @@
 'use strict';
 
 var React = require('react');
+var render = require('react-dom').render;
 var ReactCanvas = require('react-canvas');
 var Item = require('./components/Item');
 var articles = require('../common/data');
@@ -59,4 +60,4 @@ var App = React.createClass({
 
 });
 
-React.render(<App />, document.getElementById('main'));
+render(<App />, document.getElementById('main'));
