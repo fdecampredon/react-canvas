@@ -5,17 +5,20 @@
   "main": "lib/ReactCanvas.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flipboard/react-canvas.git"
+    "url": "git+https://github.com/Flipboard/react-canvas.git"
   },
   "scripts": {
-    "start": "./node_modules/.bin/gulp",
-    "test": "./node_modules/.bin/jest"
+    "start": "gulp",
+    "test": "jest"
   },
   "keywords": [
     "react",
     "canvas"
   ],
-  "author": "Michael Johnston <mj@flipboard.com>",
+  "author": {
+    "name": "Michael Johnston",
+    "email": "mj@flipboard.com"
+  },
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/Flipboard/react-canvas",
   "bugs": {

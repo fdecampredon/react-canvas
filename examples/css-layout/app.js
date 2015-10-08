@@ -2,6 +2,7 @@
 
 var React = require('react');
 var ReactCanvas = require('react-canvas');
+var render = require('react-dom').render;
 
 var Surface = ReactCanvas.Surface;
 var Group = ReactCanvas.Group;
@@ -103,4 +104,4 @@ var App = React.createClass({
 
 });
 
-React.render(<App />, document.getElementById('main'));
+render(<App />, document.getElementById('main'));
